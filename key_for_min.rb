@@ -16,3 +16,14 @@ def key_for_min_value(hash)
   		#if true, set lowest_value and lowest_key
   #return the lowest key
 end
+
+def key_for_min_value(hash)
+  lowest_key = nil
+  lowest_value = nil
+  hash.each do |k, v| #k is for the keys, v is for values, since you are iterating over a hash
+    #check the conditions I specified above
+      #set lowest_value and lowest_key here if conditionals are met
+    end
+  end
+  lowest_key #return the lowest_key
+end
